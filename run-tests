@@ -20,12 +20,10 @@ for fp in *; do
 
     : "${version:="0"}"
 
-    eval "set -- $(cat "$fp" | yq ".examples // empty | .[]" | s join ' ')"
-
     slug="$(printf -- "%s\n" "$title" | tr '\n' ' ' | sed 's/ $//' | slugify)"
-
     testfp="$MYGIT/semiosis/prompt-tests/results/${slug}-v${version}.txt"
-    if ! test -f "$testfp"; then
-        openai-complete "$fp" "$@" > "$testfp"
-    fi
+    test -f "$testfp" && continue
+
+    eval "set -- $(cat "$fp" | yq ".examples // empty | .[]" | s join ' ')"
+    openai-complete "$fp" "$@" > "$testfp"
 done
