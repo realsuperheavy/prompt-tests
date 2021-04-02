@@ -9,13 +9,18 @@ test -d "prompts" || exit 1
 cd prompts
 
 for fp in *; do
+    if ! { test -f "$fp" && pl "$fp" | grep -q -P '\.prompt$'; }; then
+        continue
+    fi
+
+    echo "$fp" | udl | hls purple
     delim="¬"
     IFS="$delim" read -r -d$'\1' version title < <(
         cat "$fp" | yq -r '[."prompt-version",.title] | join("'$delim'")')
 
     : "${version:="0"}"
 
-    eval "set -- $(cat "$fp" | yq ".examples[]" | s join ' ')"
+    eval "set -- $(cat "$fp" | yq ".examples // empty | .[]" | s join ' ')"
 
     slug="$(printf -- "%s\n" "$title" | tr '\n' ' ' | sed 's/ $//' | slugify)"
 
