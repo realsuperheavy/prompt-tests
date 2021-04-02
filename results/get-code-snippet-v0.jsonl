@@ -1,0 +1,4 @@
+["buffer, but how?\n\n\n\n>> elisp code\n\n\n\n>\n\n> defun org-todo-list()\n\n> (interactive)(org-element-map (point-at-bol)(point-at-eol) 'org-element-out"]
+["the text is not counted towards the buffer\n\nsize; the text in the \\emacs\n\ncontents\n\nare lines that has not been killed.\n\n\" \"\n\nIf you move to another buffer, you are really inserting a pointer to"]
+["they are usually hard to read,\n\tdifficult to debug, verbose, and almost impossible to understand without\nthe source file.\n\ntherefore I can't suggest enough that you\n\tmake the switch to using an editor like UltraEdit or em"]
+["the primary content comes\n\nedirectly from the buffer.\n\n\n\n\nThe Doc string, if any, is shown in the\n\"\n\n(format\n\nmessage (get message :key-items\n\n'(doc-string format-rcs-"]
