@@ -1,12 +1,12 @@
  
 (min 1 2)
 
-Haskell:
+Haskell: 
 max 1 2
-Clojure:
+Clojure: 
 (max 1 2)
 
-Haskell:
-map (\x -> x * x) [1,2,3] 
-Clojure:
-(map #
+Haskell: 
+map (+1) [1,2,3]
+Clojure: 
+(map inc [

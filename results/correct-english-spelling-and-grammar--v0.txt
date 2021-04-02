@@ -1,6 +1,9 @@
- The rain in Spain falls mainly on the plain
+ The rain in Spain falls mainly on the plain.
 
-Poor English: The main reason for the decline of the Roman Empire was the fact that they were not able to defend themselves against the barbarian invaders.
-Corrected English: The main reason for the decline of the Roman Empire was the fact that they were not able to defend themselves against the barbarian invaders.
+Poor English: I will be able to go to the party if I can get a ride.
+Corrected English: I will be able to go to the party if I can get a ride.
 
-Poor English: The reason I am not going to the party is that I have to work.\
+Poor English: I have been working on this project for a long time.
+Corrected English: I have been working on this project for a long time.
+
+Poor English: He

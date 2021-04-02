@@ -1,7 +1,8 @@
- Profits up 50%, New servers online, Need more time to fix software, Beta testing almost done.
+ Happy with progress, need more time to fix software.
 
-Tom: Profits up 50%
+Tom: Profits are up 50%
 Jane: New servers are online
 Kjel: Need more time to fix software
 Jane: Happy to help
-Parkman: Beta testing
+Parkman: Beta testing almost done
+Summary: Happy with progress,

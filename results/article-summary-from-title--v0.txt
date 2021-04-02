@@ -1,11 +1,13 @@
-GPT-3 is the latest in a series of Go Bots being released by OpenAI as part of their
-efforts to democratize AI and make it more accessible to the masses. GPT-3 is very different from
-other bots we have built before. You can read the paper here: https://arxiv.org/pdf/1803.03802.pdf.
-In this tutorial we'll be using Python Flask, Numpy, Pandas, and OpenAI's Deep Learning toolkit
-to create a simple text-based chatbot that can interact with users via the Twilio API. The
-bot will have limited functionality but I hope to show you the versatility and power of using
-open source AI tools to build your next chatbot and make it actually useful and fun for
-the people that interact with it.
+Machine Learning and AI are now part of almost every developer's daily life. So,
+what better way to learn about them than building a chatbot using an open source model.
+This is a complete tutorial that will show you how to build an SMS chatbot using Python,
+Flask and OpenAI's GPT-3 engine.
 
-Title: Building a Slack Bot with Python and the Slack API
-Summary: Slack
+Title: How To Build a DevOps Dashboard with Grafana
+Summary: DevOps Dashboards are very popular and everyone seems to be building them - but
+sometimes it's hard to find a good starting point. In this tutorial I'm going to show you
+how to build a DevOps dashboard using Python, Flask and Grafana.
+
+Title: Deploy a Flask Application in 10 Minutes with Heroku, Docker and Docker Compose
+Summary: One of the many advantages of using Python is that it is easy to deploy your application on
+multiple platforms. This

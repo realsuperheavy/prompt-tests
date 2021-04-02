@@ -1,3 +1,18 @@
-they are presented to you the same way in an emacs buffer whether they are files or not. this allows you to use text in a buffer as the contents of a file.
+file
+ "
 
-to tell emacs that a buffer is a file, use the command M-x inform-file (i
+" 
+ (but they are not)
+
+You can't do anything else "
+
+" 
+ with this buffer now.
+ "
+
+" 
+ " )
+
+((looking-at " ^;;; " )
+
+t

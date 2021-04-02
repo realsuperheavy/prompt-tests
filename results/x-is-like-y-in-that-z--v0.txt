@@ -1,16 +1,15 @@
 
- both are nonnegative integers.
+both are ways of specifying <3>.
 
-<1> are like <3> in that
- both are nonnegative integers.
 
-<1> are like <5> in that
- both are nonnegative integers.
 
-<1> are like <6> in that
- both are nonnegative integers.
 
-<1> are like <7> in that
- both are nonnegative integers.
+That is a lot of information in one sentence. The sequence of words is not very meaningful to a human, yet it is a valid Haskell program.
 
-<1
+In this chapter, we will explore the various forms of input that we can use to teach Haskell, and ways to make the computer understand our commands.
+
+
+Basic Input and Output
+
+
+Haskell has a special syntax for printing text to the screen. We
