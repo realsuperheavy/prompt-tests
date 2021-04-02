@@ -1,0 +1,10 @@
+#!/bin/bash
+export TTY
+# shopt -s nullglob # use for 'for' loops but not for 'ls', 'grep'
+
+delim="¬"
+
+for fp in $MYGIT/semiosis/prompts/prompts; do
+    IFS="$delim" read -r -d$'\1' prompt stop_sequences temperature engine preferred_openai_engine max_tokens top_p postprocessor < <(
+        cat "$first_arg" | yq -r '[.prompt-version,."stop-sequences"[0],.temperature,.engine,."preferred-openai-engine",."max-tokens",."top-p",.postprocessor] | join("'$delim'")')
+done
