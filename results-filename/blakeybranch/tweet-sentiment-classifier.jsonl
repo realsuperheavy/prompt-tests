@@ -1,0 +1,5 @@
+{"output":" Negative\n\".format(sentiment_text))\n\nThe sentiment_text column in the dataset is the text of the tweet and the sentiment is either positive, negative, or neutral. The data is then downloaded to the default data directory and then used to train a Naïve Bayes classifier. The training","title":"tweet sentiment","version":"0"}
+{"output":" Negative\n\" def tnmt_main(args): # Load data data = spacy.load('en_core_web_sm') # vocab vocabulary = data.vocab # Create model model = tnmt.TextClassifier(data=data, size=args.size, token","title":"tweet sentiment","version":"0"}
+{"output":" Negative","title":"tweet sentiment","version":"0"}
+{"output":" Negative","title":"tweet sentiment","version":"0"}
+{"output":" Negative\n\"\"\" if __name__ == \"__main__\": # Load the dataset data = read_csv('positive-negative-neutral-sentiment-classification.csv', header=0) # Create mapping for the features with default values mapping = {} for feature in data.columns: if feature","title":"tweet sentiment","version":"0"}
