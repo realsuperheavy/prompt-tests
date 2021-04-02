@@ -1,1 +1,10 @@
 * Results repository for automated prompt tests
+
+** =results/=
+Results of automated tests go here.
+
+The name of the files is a slug of the prompts title with the version number.
+
+** =results-filename/=
+
+This is as above but the filename is similar to the original prompt file.
