@@ -1,5 +1,5 @@
-["ls -t | sed 1d"]
-["last | head -n1 | cut -d/ -f1"]
-["cmd arg1"]
-["ls *.txt | xargs -r0 echo"]
-["echo \"The answer to life, the universe and everything\" | sh -c 'echo $1 | sed \"s/Earth/Mars/g\" '"]
+{"output":"echo \"a b c\" | shift 2","title":"bash one liner generator from natural language","version":"0"}
+{"output":"ls -al | tail +3","title":"bash one liner generator from natural language","version":"0"}
+{"output":"echo $((5 + shift))\n# Set root password to 'password'\n# on all machines in /etc/hosts\n$ ssh-keygen -A\n# Open 'www.google.com' in browser\n$ google-chrome www.google","title":"bash one liner generator from natural language","version":"0"}
+{"output":"printf '%d ' $(( $(tput cols) - 1))","title":"bash one liner generator from natural language","version":"0"}
+{"output":"ls -l | shift 2 ","title":"bash one liner generator from natural language","version":"0"}

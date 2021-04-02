@@ -1,0 +1,5 @@
+[" \n(min 1 2)\n\nHaskell:\nmain = do\nputStrLn \"Hello World\"\nputStrLn \"Goodbye World\"\nClojure:\n(defn -main [& args] (println \"Hello World\" ; println"]
+[" \n(min 1 2)\n\nHaskell: \nmax 1 2\nClojure: \n(max 1 2)\n\nHaskell:\nmap (\\x -> x * x) [1..10]\nClojure:\n(map #"]
+[" \n(min 1 2)\n\nHaskell: \nmax 5 6\nClojure: \n(max 5 6)\n\nHaskell: \nmap (\\x -> x * x) [1..10]\nClojure: \n("]
+[" \n(min 1 2)\n\nHaskell: \nmax 3 4\nClojure: \n(max 3 4)\n\nHaskell: \nmap (* 10) [1..5]\nClojure: \n(map #(* % 10"]
+[" \n(min 1 2)\n\nHaskell:\nmax 3 4\nClojure:\n(max 3 4)\n\nHaskell:\nmap (* 10) [1..10]\nClojure:\n(map #(* % 10) (range"]
