@@ -1,14 +1,26 @@
-Intensional Types
-Curry-Howard Correspondence
-Proof-Carrying Code
-Term Rewriting
-Alpha-Conversion
-Homotopy Type Theory
+Singleton Types
+Existentially Quantified Types
+Polymorphic Types
+Reflection
 Algebraic Data Types
+Parametric Polymorphism
+Recursive Data Types
+Recursive Types
+Nested Polymorphism
+Multi-Param Type Classes
 Type Families
+Strictness Analysis
+Opaque Types
+Closed Type Families
+Existential Type Classes
 Type Inference
-Lambda Calculus
-Modules
-Type Classes
-Type-Level Programming
-Functional Dependencies
+Existential Types
+Impredicative Types
+Quantified Types
+Type Checking
+View Patterns
+Datatype-Generic Programming
+Partial Type Signatures
+Rank-2 Types
+Fully Polymorphic Types
+GADTs

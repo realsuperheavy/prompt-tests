@@ -1,3 +1,2 @@
 
-import boysenberries
-boysenberries.print_info()
+print("boysenberries")

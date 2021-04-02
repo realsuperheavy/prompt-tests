@@ -1,15 +1,15 @@
  Je t'aime.
 
-English: I am very tired.
-French: Je suis très fatigué.
+English: I love you too.
+French: Moi aussi.
 
-English: I'm sorry.
-French: Je suis désolé.
+English: I am tired.
+French: Je suis fatigué.
 
-English: I'm lost.
-French: Je suis perdu.
+English: I am not tired.
+French: Je ne suis pas fatigué.
 
-English: I'm hungry.
+English: I am hungry.
 French: J'ai faim.
 
-English: I
+English: I am

@@ -1,9 +1,10 @@
  
 fruit = ["apple", "banana", "cherry"]
-a = Array.new(fruit.length) { |i| fruit[i] }
-print(a)
+list = fruit
+list.reverse
+puts list
 
 Python:
-print("Hello World") 
-Ruby:
-puts "
+list = [1,2,3]
+list.insert(1,4) 
+list.
