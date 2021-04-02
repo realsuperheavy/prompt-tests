@@ -1,0 +1,4 @@
+{"output":"sudo apt-get -y install [email\\u00a0protected]","title":"bash one liner generator from natural language","version":"0"}
+{"output":"yes n| head -n +1","title":"bash one liner generator from natural language","version":"0"}
+{"output":"ls mod.{js,css} -t | head -1\n##\n# Test local Python version\n$ python -V\n##\n# Test all .py files for syntax errors\n$ bash -c 'for f in *.py; do python -","title":"bash one liner generator from natural language","version":"0"}
+{"output":"date \"+%m/%d/%y %I:%M %p\"","title":"bash one liner generator from natural language","version":"0"}
