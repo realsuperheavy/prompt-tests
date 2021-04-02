@@ -2,9 +2,20 @@
 export TTY
 # shopt -s nullglob # use for 'for' loops but not for 'ls', 'grep'
 
-delim="¬"
+# git-repo-for-each-branch-do "https://github.com/semiosis/prompts/" "$MYGIT/semiosis/prompt-tests/run-tests"| v
 
-for fp in $MYGIT/semiosis/prompts/prompts; do
-    IFS="$delim" read -r -d$'\1' prompt stop_sequences temperature engine preferred_openai_engine max_tokens top_p postprocessor < <(
-        cat "$first_arg" | yq -r '[.prompt-version,."stop-sequences"[0],.temperature,.engine,."preferred-openai-engine",."max-tokens",."top-p",.postprocessor] | join("'$delim'")')
+test -d "prompts" || exit 1
+
+cd prompts
+
+for fp in *; do
+    delim="¬"
+    IFS="$delim" read -r -d$'\1' version title < <(
+        cat "$first_arg" | yq -r '[.prompt-version,.title] | join("'$delim'")')
+
+    : "${version:="0"}"
+
+    slug="$(printf -- "%s\n" "$@" | tr '\n' ' ' | sed 's/ $//' | slugify)"
+
+    openai-complete "$fp" "concert guitars" music "I know concert guitars is a subtopic of music. Could you please explain what concert guitars is and why concert guitars is important?" |& tee "$MYGIT/semiosis/prompt-tests/results/${slug}-v${version}.txt"
 done
