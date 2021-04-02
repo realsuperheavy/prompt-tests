@@ -27,3 +27,8 @@ for fp in *; do
     eval "set -- $(cat "$fp" | yq ".examples // empty | .[]" | s join ' ')"
     openai-complete "$fp" "$@" > "$testfp"
 done
+
+cd $MYGIT/semiosis/prompt-tests/
+git add -A .
+git commit -m "$(k f8)"
+vc p
