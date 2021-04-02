@@ -1,5 +1,5 @@
-[" The database says “Shane is 33 years old.”\n\nQ: How tall is Shane?\nA: The database says “You are not in the database.”\n\n\"Tom is a cool guy\" is added to the database."]
-[" The database says “Shane is 33 years old.”\n\nQ: How does the database respond when asked “What’s my age?”\nA: The database says “You are not in the database.”\n"]
-[" The database says “Shane is 33 years old.”\n\nQ: How does the database respond when asked “What is the capital of France?”\nA: The database says “The capital of France is Paris.”\n"]
-[" The database says “Shane is 33 years old.”\n\nQ: How does the database respond when asked “What is the capital of France?”\nA: The database says “The capital of France is Paris.”\n"]
-[" The database says “Shane is 33 years old.”\n\nQ: How old is Tom?\nA: The database says “Tom is 20 years old.”\n\nQ: How old is the database?\nA: The database"]
+{"output":" The database says “Shane is 33 years old.”\n\nQ: Does the database know how to get to Shane’s house?\nA: The database does not know.\n\nQ: Does the database know how to get to my house","title":"database example","version":"0"}
+{"output":" The database says “Shane is 33 years old.”\n\nQ: How does the database respond when asked “What’s my age?”\nA: The database says “You are not in the database.”\n","title":"database example","version":"0"}
+{"output":" The database says “Shane is 33 years old.”\n\nQ: Does the database know “What is the capital of France?”\nA: The database does not know.\n\nQ: Does the database know “What is 2","title":"database example","version":"0"}
+{"output":" The database says “Shane is 33 years old.”\n\nQ: How old is Tom?\nA: The database says “Tom is 20 years old.”\n\nQ: What is Tom’s age?\nA:","title":"database example","version":"0"}
+{"output":" The database says “Shane is 33 years old.”\n\nQ: How tall is Shane?\nA: The database says “Shane is not in the database.”\n\nQ: Does the database know “What is the capital","title":"database example","version":"0"}
