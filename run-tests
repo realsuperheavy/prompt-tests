@@ -18,24 +18,43 @@ for fp in *; do
     IFS="$delim" read -r -d$'\1' version title n < <(
         cat "$fp" | yq -r '[."prompt-version",.title,."n-test-runs"] | join("'$delim'")')
 
+    version="$(printf -- "%s" "$version" | sed -z 's/^\n$//')"
+    n="$(printf -- "%s" "$n" | sed -z 's/^\n$//')"
     : "${version:="0"}"
-    : "${n:="1"}"
+    : "${n:="5"}"
 
     slug="$(printf -- "%s\n" "$title" | tr '\n' ' ' | sed 's/ $//' | slugify)"
-    nbn="${slug}-v${version}.txt"
+    nbn="${slug}-v${version}.jsonl"
     testfp="$MYGIT/semiosis/prompt-tests/results/$nbn"
 
-    if ! test "$UPDATE" = y; then
-        test -f "$testfp" && continue
-    fi
+    # if ! test "$UPDATE" = y; then
+    #     test -f "$testfp" && continue
+    # fi
 
     eval "set -- $(cat "$fp" | yq ".examples // empty | .[]" | s join ' ')"
-    openai-complete "$fp" "$@" > "$testfp"
+
+    rm -f "$testfp"
+    touch "$testfp"
+
+    for (( i = 0; i < ${n}; i++ )); do
+        
+        IFS="$delim" read -r -d$'\1' RESULT < <(upd openai-complete "$fp" "$@")
+
+        export RESULT
+        export TITLE="$title"
+        export VERSION="$version"
+
+        jq -n -c '{ output: env.RESULT, title: env.TITLE, version: env.VERSION }' >> "$testfp"
+        continue
+    done
 
     (
-        bn="$(basename "$fp")"
+        fn="$(basename "$fp")"
+        mant="${fn%.*}"
         cd "$MYGIT/semiosis/prompt-tests/results-filename"
-        ln -s "../results/$nbn" "$bn"
+
+        rm -f "${mant}.jsonl"
+        cp -af "../results/$nbn" "${mant}.jsonl"
     )
 done
 

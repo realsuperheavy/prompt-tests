@@ -1,5 +1,5 @@
-["sudo sh -c \"echo mem > /sys/power/state\" ;sudo -S"]
-["pm-suspend"]
-["echo 1 > /proc/acpi/sleep\nLanguage: bash\nTask: Heroku deploy user-data\nCode: git push heroku master:master && heroku run rake db:migrate && heroku restart"]
-["sudo pm-suspend"]
-["sudo echo mem > /sys/power/state"]
+{"output":"pm-suspend","title":"generic one liner generator from natural language","version":"0"}
+{"output":"\"\n/usr/sbin/pm-suspend","title":"generic one liner generator from natural language","version":"0"}
+{"output":"pmset sleepnow","title":"generic one liner generator from natural language","version":"0"}
+{"output":"bspowerdctl suspend","title":"generic one liner generator from natural language","version":"0"}
+{"output":"acpitool -a 0","title":"generic one liner generator from natural language","version":"0"}
