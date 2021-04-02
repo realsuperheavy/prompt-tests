@@ -21,11 +21,21 @@ for fp in *; do
     : "${version:="0"}"
 
     slug="$(printf -- "%s\n" "$title" | tr '\n' ' ' | sed 's/ $//' | slugify)"
-    testfp="$MYGIT/semiosis/prompt-tests/results/${slug}-v${version}.txt"
-    test -f "$testfp" && continue
+    nbn="${slug}-v${version}.txt"
+    testfp="$MYGIT/semiosis/prompt-tests/results/$nbn"
+
+    if ! test "$UPDATE" = y; then
+        test -f "$testfp" && continue
+    fi
 
     eval "set -- $(cat "$fp" | yq ".examples // empty | .[]" | s join ' ')"
     openai-complete "$fp" "$@" > "$testfp"
+
+    (
+        bn="$(basename "$fp")"
+        cd "$MYGIT/semiosis/prompt-tests/results-filename"
+        ln -s "../results/$nbn" "$bn"
+    )
 done
 
 cd $MYGIT/semiosis/prompt-tests/
