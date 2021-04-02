@@ -1,0 +1,5 @@
+["ls -t | sed 1d"]
+["last | head -n1 | cut -d/ -f1"]
+["cmd arg1"]
+["ls *.txt | xargs -r0 echo"]
+["echo \"The answer to life, the universe and everything\" | sh -c 'echo $1 | sed \"s/Earth/Mars/g\" '"]

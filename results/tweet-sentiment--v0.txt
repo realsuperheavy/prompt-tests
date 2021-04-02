@@ -1,7 +1,0 @@
- Negative
-
-"
-
-This code is a classifier that takes a tweet and returns the sentiment as positive, negative, or neutral. The output should be a string with a value from the sentiment_enum enum.
-
-The vectorizer() function will take in a list of strings, which are the

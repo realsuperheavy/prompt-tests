@@ -1,5 +1,0 @@
-
-	A language model is a statistical model that describes the probability of a word given the previous words.
-You: What is a <2>?
-ML Tutor: A language model is a statistical model that describes the probability of a word given the previous words.
-You

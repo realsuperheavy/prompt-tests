@@ -1,1 +1,5 @@
-["echo mem >/proc/acpi/wakeup"]
+["sudo sh -c \"echo mem > /sys/power/state\" ;sudo -S"]
+["pm-suspend"]
+["echo 1 > /proc/acpi/sleep\nLanguage: bash\nTask: Heroku deploy user-data\nCode: git push heroku master:master && heroku run rake db:migrate && heroku restart"]
+["sudo pm-suspend"]
+["sudo echo mem > /sys/power/state"]

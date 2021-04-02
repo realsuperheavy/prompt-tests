@@ -1,4 +1,0 @@
- The database says “Shane is 33 years old.”
-
-Q: How does the database respond when asked “What’s my age?”
-A: The database says “You are not in the database.”

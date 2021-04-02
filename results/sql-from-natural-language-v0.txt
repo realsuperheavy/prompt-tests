@@ -1,7 +1,0 @@
- 
-A: select * from users order by salary desc limit 10 
-
-Q: Who has the highest marks in the subject "java" 
-A: select * from subjectmarks where userid=1 and subject="java" 
-
-Q: Who has the highest
