@@ -1,0 +1,7 @@
+? 
+A: select * from users where salary<min(salary) 
+
+Q: Who has the highest marks in java? 
+A: select * from subjectmarks where subject="java" 
+
+Q: Who has the highest marks in java and what

@@ -1,0 +1,9 @@
+ 
+fruit = ["apple", "banana", "cherry"]
+a = Array.new(fruit.length) { |i| fruit[i] }
+print(a)
+
+Python:
+print("Hello World") 
+Ruby:
+puts "

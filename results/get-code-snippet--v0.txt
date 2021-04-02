@@ -1,0 +1,3 @@
+they are presented to you the same way in an emacs buffer whether they are files or not. this allows you to use text in a buffer as the contents of a file.
+
+to tell emacs that a buffer is a file, use the command M-x inform-file (i

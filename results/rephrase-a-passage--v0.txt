@@ -1,0 +1,1 @@
+Software developers, especially hobbyists, must be careful to not get stuck using a single IDE for all their projects. One project might require some Python code; another might need some Ruby; another might need some PHP. Their favorite IDE might support only a single language, which is going to force the developer to abandon their preferred IDE and switch on a different one.

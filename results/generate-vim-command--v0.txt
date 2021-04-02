@@ -1,0 +1,3 @@
+, but only if Steve is at the start of the line
+:%s/Steve/steve/g
+:if Steve

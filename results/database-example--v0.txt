@@ -1,0 +1,7 @@
+ The database says “Shane is 33 years old.”
+
+Q: How old is Shane?
+A: The database says “Shane is 33 years old.”
+
+Q: How old is Shane?
+A: The database
