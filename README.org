@@ -1,0 +1,1 @@
+* Results repository for automated prompt tests
