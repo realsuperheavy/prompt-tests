@@ -15,7 +15,10 @@ for fp in *; do
 
     : "${version:="0"}"
 
-    slug="$(printf -- "%s\n" "$@" | tr '\n' ' ' | sed 's/ $//' | slugify)"
+    slug="$(printf -- "%s\n" "$title" | tr '\n' ' ' | sed 's/ $//' | slugify)"
 
-    openai-complete "$fp" "concert guitars" music "I know concert guitars is a subtopic of music. Could you please explain what concert guitars is and why concert guitars is important?" |& tee "$MYGIT/semiosis/prompt-tests/results/${slug}-v${version}.txt"
+    testfp="$MYGIT/semiosis/prompt-tests/results/${slug}-v${version}.txt"
+    if ! test -f "$testfp"; then
+        openai-complete "$fp" "concert guitars" music "I know concert guitars is a subtopic of music. Could you please explain what concert guitars is and why concert guitars is important?" > "$testfp"
+    fi
 done
