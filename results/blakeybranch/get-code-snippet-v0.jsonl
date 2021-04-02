@@ -1,0 +1,5 @@
+{"output":"order. \\\n\n* \\\n\n* Narrow text--\\\n\n* range start--\\\n\n* range end \\\n\n* (range start)--- (range end) \\\n\n* (range start)---- (range end) \\\n\n* (range start","title":"Get code snippet","version":"0"}
+{"output":"bottom line\n\" +msgstr \"\" + +#: gsc.r:1245 gsc.r:1249 +#, fuzzy +msgid \"Correcting Errors\" +msgstr \"beslut\tutan\" + +#: gsc.r:1289 gsc","title":"Get code snippet","version":"0"}
+{"output":"you can do either at any time, but you can't do both at the same time. You can do either, or both, at any time. All of the following are ways of getting the contents of the buffer into the minibuffer: M-x write-abbrev-file","title":"Get code snippet","version":"0"}
+{"output":"buffer.\n\n\" - (interactive) - (goto-char (point-min)) - (delete-region (point-min) (point)) - (insert (buffer-substring-no-properties (point-min) (point))) - (goto","title":"Get code snippet","version":"0"}
+{"output":"file,\n\n\neither w3m nor emacs mark up tiny pieces of text like that, but w3m does mark up urls, which are tiny pieces of text.\n\n\neither w3m nor emacs mark up tiny pieces of text like that, but","title":"Get code snippet","version":"0"}

@@ -1,0 +1,5 @@
+{"output":"\nboysenberries = True","title":"Python from natural language","version":"0"}
+{"output":"\nprint(\"Boysenberries!\")","title":"Python from natural language","version":"0"}
+{"output":"\nimport boysenberries\nboysenberries.print_info()","title":"Python from natural language","version":"0"}
+{"output":"\nboysenberries = \"boysenberries\"","title":"Python from natural language","version":"0"}
+{"output":"\nimport sys\nprint(\"Hello world!\") \nprint(\"\n\" + sys.argv[1] + \"!\")","title":"Python from natural language","version":"0"}

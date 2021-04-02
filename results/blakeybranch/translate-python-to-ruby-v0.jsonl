@@ -1,0 +1,5 @@
+{"output":" \nfruit = [\"apple\", \"banana\", \"cherry\"]\na = Array.new(fruit.length) \nfor x in fruit:\na[x] = x\nputs a.join(\", \")","title":"Translate Python to Ruby","version":"0"}
+{"output":" \nfruit = [\"apple\", \"banana\", \"cherry\"]\nlist = fruit.collect {|x| x }\nputs list\nlist.reverse\nputs list","title":"Translate Python to Ruby","version":"0"}
+{"output":" \nfruit = [\"apple\", \"banana\", \"cherry\"]\nfruits.each {|x| print x }","title":"Translate Python to Ruby","version":"0"}
+{"output":" \nfruit = [\"apple\", \"banana\", \"cherry\"]\nfruits.each {|x| print x }","title":"Translate Python to Ruby","version":"0"}
+{"output":" \nfruit = [\"apple\", \"banana\", \"cherry\"]\nlist = [\"apple\", \"banana\", \"cherry\"]\nlist.each {|x| print x }","title":"Translate Python to Ruby","version":"0"}

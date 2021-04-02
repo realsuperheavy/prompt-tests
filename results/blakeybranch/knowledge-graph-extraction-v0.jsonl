@@ -1,0 +1,5 @@
+{"output":"\n-- CakeResume <--raise--> $0\n-- CakeResume <--do--> Asia's largest tech talent pool","title":"Knowledge Graph Extraction","version":"0"}
+{"output":"\n-- CakeResume <--raise--> $0\n-- CakeResume <--do--> Asia\n-- CakeResume <--locate--> Singapore","title":"Knowledge Graph Extraction","version":"0"}
+{"output":"\n-- CakeResume <--raise--> $0,000\n-- CakeResume <--do--> Asia\n-- CakeResume <--located--> Singapore\n-- CakeResume <--do--> tech talent pool\n-- CakeResume <--raise-->","title":"Knowledge Graph Extraction","version":"0"}
+{"output":"\n-- CakeResume <--raise--> $0\n-- CakeResume <--do--> Asia’s largest tech talent pool","title":"Knowledge Graph Extraction","version":"0"}
+{"output":" from 500 Startups and others\n-- CakeResume <--raise--> $0.00\n-- CakeResume <--do--> Asia's largest tech talent pool","title":"Knowledge Graph Extraction","version":"0"}

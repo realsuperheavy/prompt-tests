@@ -1,0 +1,5 @@
+{"output":"\n:%s/steve/steve/g","title":"Generate vim command","version":"0"}
+{"output":"\n:%s/steve/steve/g","title":"Generate vim command","version":"0"}
+{"output":", but not Steve Jobs\n:%s/Steve/steve/g\n:nSteve Jobs","title":"Generate vim command","version":"0"}
+{"output":"\n:%s/steve/steve/g","title":"Generate vim command","version":"0"}
+{"output":"\n:%s/steve/Steve/g","title":"Generate vim command","version":"0"}

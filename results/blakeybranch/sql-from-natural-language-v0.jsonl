@@ -1,0 +1,5 @@
+{"output":"? \nA: select * from users order by salary desc limit 10 ","title":"SQL from natural language","version":"0"}
+{"output":" \nA: select * from users order by salary desc limit 10 ","title":"SQL from natural language","version":"0"}
+{"output":" \nA: select * from users where salary<min(salary) ","title":"SQL from natural language","version":"0"}
+{"output":"? \nA: select * from users order by salary desc limit 10 ","title":"SQL from natural language","version":"0"}
+{"output":" \nA: select * from users where salary<min(salary) ","title":"SQL from natural language","version":"0"}

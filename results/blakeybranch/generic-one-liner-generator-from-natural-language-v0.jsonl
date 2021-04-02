@@ -1,0 +1,5 @@
+{"output":"sudo pm-suspend","title":"generic one liner generator from natural language","version":"0"}
+{"output":"xset +p","title":"generic one liner generator from natural language","version":"0"}
+{"output":"echo \"mem\" > /sys/power/state","title":"generic one liner generator from natural language","version":"0"}
+{"output":"xset suspend","title":"generic one liner generator from natural language","version":"0"}
+{"output":"systemctl suspend","title":"generic one liner generator from natural language","version":"0"}
