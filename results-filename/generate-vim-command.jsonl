@@ -1,5 +1,5 @@
-[", except the first\n:%s/Steve/steve/g\n:n,N"]
-["\n:%s/steve/steve/g"]
-["\n:%s/steve/steve/g"]
-["\n:%s/steve/steve/g"]
-["\n:%s/steve/steve/g"]
+{"output":"\n:%s/steve/steve/g","title":"Generate vim command","version":"0"}
+{"output":"\n:%s/steve/steve/g","title":"Generate vim command","version":"0"}
+{"output":"\n:%s/steve/steve/g","title":"Generate vim command","version":"0"}
+{"output":"\n:%s/steve/steve/g","title":"Generate vim command","version":"0"}
+{"output":"\n:%s/steve/steve/g","title":"Generate vim command","version":"0"}
