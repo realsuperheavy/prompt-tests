@@ -1,0 +1,15 @@
+
+both are ways of specifying <3>.
+
+
+
+
+That is a lot of information in one sentence. The sequence of words is not very meaningful to a human, yet it is a valid Haskell program.
+
+In this chapter, we will explore the various forms of input that we can use to teach Haskell, and ways to make the computer understand our commands.
+
+
+Basic Input and Output
+
+
+Haskell has a special syntax for printing text to the screen. We

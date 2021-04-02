@@ -1,0 +1,18 @@
+file
+ "
+
+" 
+ (but they are not)
+
+You can't do anything else "
+
+" 
+ with this buffer now.
+ "
+
+" 
+ " )
+
+((looking-at " ^;;; " )
+
+t
