@@ -11,7 +11,7 @@ cd prompts
 for fp in *; do
     delim="¬"
     IFS="$delim" read -r -d$'\1' version title < <(
-        cat "$first_arg" | yq -r '[.prompt-version,.title] | join("'$delim'")')
+        cat "$fp" | yq -r '[."prompt-version",.title] | join("'$delim'")')
 
     : "${version:="0"}"
 
